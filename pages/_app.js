@@ -1,4 +1,8 @@
-import '../styles/globals.css'
+import '../styles/globals.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '@fortawesome/fontawesome-free/css/all.css';
+import Particles from 'react-particles-js';
+import {Link} from 'react-scroll';
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />

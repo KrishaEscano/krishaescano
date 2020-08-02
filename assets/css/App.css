@@ -1,0 +1,465 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	/*font-family: 'Noto Sans JP', sans-serif;*/
+	font-family: 'Montserrat';
+ 	color:#3b1b16;
+ 	text-align: center;
+}
+
+/* japanese version */
+
+.font {
+	font-family: 'Noto Sans JP', 'Montserrat', sans-serif
+}
+
+/* Navigation Bar */
+#navbarNav {
+	padding: 0 18px;
+	color: #fdfdfd !important;
+	position: relative;
+}
+
+.navbar li a, .navbar-nav li a {
+	border-radius: 0;
+	color: #442727 !important;
+}
+
+.navbar li a:hover, .navbar-nav li a.active {
+	color: #83580b !important;
+	background: #fff;
+}
+
+.logo {
+	width: 30%;
+}
+
+nav.bg-light {
+	background: transparent !important;
+	transition: 2000 ease;	
+}
+
+.bg-light.scrolled {
+	background: linear-gradient(to right, #603813, #b29f94) !important;
+}
+
+/* landing page background */
+
+.hero {
+	background-image: linear-gradient(rgba(102,51,0,0.6), rgba(153,102,51,0.2)),url(../images/background.jpg);
+	height: 60vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	padding-top: 20vh;
+	padding-bottom: 30vh;
+}
+
+section h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 6rem;
+	color: #3b1b16;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.text-brown {
+	font-family: 'Dancing Script', cursive;
+	font-size: 2rem;
+	line-height: 1.3;
+	text-shadow: 0.5px 1px 0.5px #000;
+	text-align: center;
+}
+
+/* About */
+
+#about {
+	padding: 5% 25%;
+	align-content: center;
+	background-color: #f0ece3;
+}
+
+.about-me {
+	border-left: 10px solid #596e79;
+	padding-left: 10px;
+	}
+
+.profile-picture {
+	width:180px;
+	margin: 10% 0;
+}
+
+.about-paragraph{
+    flex-wrap: nowrap;
+    text-align: left;
+}
+
+/* Education */
+
+#education {
+	background-color: #c7b198;
+	padding: 5% 20%;
+}
+
+#education h3 {
+	border-bottom: 10px solid #596e79;	
+}
+
+.education-content {
+	flex-wrap: nowrap;
+	display: flex;
+	justify-content: left;
+	padding-top: 10px;
+}
+
+#education ul li {
+	list-style-type: none;
+}
+
+.school-name {
+	padding: 5px 10px;
+	text-decoration: italic;
+}
+
+/* Skills and Hobbies */
+#sh {
+	background-color: #f0ece3;
+	padding: 10% 20%;
+}
+
+/*.skills {
+	border-right: 10px solid #596e79;
+}*/
+
+h3.skill-font, h3.hobbies-font {
+	padding: 5% 0 1% 0;
+	font-weight: 700;
+	border-bottom: 5px solid #596e79;
+}
+
+.html-skill, .css-skill, .reading-hobby, .swimming-hobby {
+	margin-top: 10%;
+}
+
+.html-skill:hover {
+	background-color: #D35400;
+}
+
+.css-skill:hover {
+	background-color: #2E86C1;
+}
+
+.javascript-skill:hover {
+	background-color: #F7DC6F;
+}
+
+.bootstrap-skill:hover {
+	background-color: #7D3C98;
+}
+
+.reading-hobby:hover {
+	background-color: #3498DB;
+}
+
+.swimming-hobby:hover {
+	background-color: #E67E22;
+}
+
+.hiking-hobby:hover {
+	background-color: #2ECC71;
+}
+
+.baking-hobby:hover {
+	background-color: #F7DC6F;
+}
+
+.skill-icons, .hobby-icon {
+  margin-bottom: 15px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills, .hobbies {
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Project */
+#project {
+  background-color: #596e79;
+}
+
+.project-text {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #3b1b16;
+}
+
+.project-image {
+  width: 100%;
+  margin: 20px;
+}
+
+.project-image:hover {
+	opacity: 0.5;
+
+}
+
+.carousel-item {
+	padding: 7% 15%;
+}
+
+
+/* Contacts */
+
+#getintouch {
+	background-color: #f0ece3;
+	padding: 3% 0;
+}
+
+h3.getintouch-header {
+	font-size: 40px;
+	padding-bottom: 10px;
+}
+
+.form-input {
+	width:45%;
+	margin-bottom: 10px;
+}
+
+.index-button {
+	align-items: left;
+}
+
+.submitButton:hover {
+	background: linear-gradient(to right, #603813, #b29f94);
+}
+
+.form-label {
+	display: block;
+	line-height: 2;
+  	text-align: left;
+  	padding-left: 27.5%;
+  	padding-right: 27.5%;
+  	font-weight: 500;
+}
+
+/* Footer */
+footer {
+	background-color: #c7b198;
+	line-height: 2rem;
+	padding: 20px 0;
+}
+
+.icon-media {
+	padding: 0 20px 10px 20px;
+	color: #3b1b16;
+}
+
+.icon-media:hover {
+	background-color: #f0ece3;
+}
+
+.name {
+	border-bottom: solid 1px #3b1b16;
+	color: #3b1b16;
+}
+----------------------------------------------------
+/* Media Query */
+@media (max-width: 1322px) {
+	.project-text {
+		font-size:0.6rem;
+	}
+}
+
+@media (max-width: 995px) { 
+	.skills {
+		border:none;
+	}
+}
+
+@media (max-width: 991px) {
+	.navbar-nav {
+		background-color: #f0ece3;
+	}
+
+	.navbar li a:hover, .navbar-nav li a.active {
+		color: #fff;
+		background-color: #c7b198;
+	}
+}
+
+@media (max-width: 894px) {
+	.main-heading {
+		font-size: 3.5rem;
+	}
+
+	.main-second-heading {
+		font-size: 1rem;
+	}
+}
+
+/* Mobile Device Landscape */
+@media (max-width: 825px) { 
+	.main-heading {
+		font-size: 3.5rem;
+	}
+
+	.main-second-heading {
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 536px) {
+	.main-heading {
+		font-size: 0.5rem;
+	}
+
+	.main-second-heading {
+		font-size: 1rem;
+	}
+}
+
+
+
+@media (max-width: 521px) {
+
+/* Navigation Bar and Landing Page MQ */
+
+	#landing-page {
+		text-align: center;
+}
+
+	#landing-page h1 {
+		font-size: 3rem;
+}
+
+	#landing-page h2 {
+		font-size: 1rem;
+}
+/* landing page in japanese */
+	.main-heading {
+		font-size: 2rem;
+}
+
+	.main-second-heading {
+		font-size: 1rem;	
+}
+
+/* About MQ */
+	#about h2 {
+		font-size: 20px;
+}
+
+	#about p {
+		font-size: 10px;
+		flex-wrap: nowrap;
+		align-content: left;
+}
+
+	.profile-picture {
+		width:90px;
+		margin-bottom: 5%;
+}
+
+/* Education MQ*/
+	#education {
+		justify-content: left;
+		padding: 50px;
+	}
+
+	.education-content {
+		font-size: 15px;
+	}
+
+	#education h4 {
+		font-size: 20px;
+	}
+
+/* Skills Hobbies MQ*/
+	#sh {
+		margin: auto;
+	}
+
+	.skills {
+		border:none;
+	}
+	
+	.html-skill, .css-skill, .reading-hobby, .swimming-hobby {
+		margin-top: 0;
+}
+
+/* Project */
+.project-text {
+		font-size:0.5rem;
+	}
+
+
+/* Get in Touch MQ */
+	#getintouch h3 {
+		font-size: 20px;
+	}
+
+	#getintouch h4 {
+		font-size: 15px;
+	}
+
+	#getintouch p {
+		font-size: 10px;
+	}
+
+	.contact-form-container-row  {
+		width: auto;
+		height:auto;
+		font-size: 10px;
+	}
+
+	.submit-button {
+		font-size: 10px;
+	}
+
+/* Footer MQ */
+	.icon-media {
+		padding: 0 10px 10px 10px;
+		font-size: 20px;
+	}
+}
+
+@media (max-width:500px) {
+	.navbar-nav {
+		position: relative!important;
+		/*width: 0!important;
+		height:0 !important;
+		margin: 0 !important;
+		padding: 8px 0 !important;*/
+	}
+	#navbarNav {
+		position: relative;
+		overflow: hidden;
+	}	
+
+}
+
+
+@media (max-width: 325px) {
+	.main-heading {
+		font-size: 0.5rem;
+	}
+
+	.main-second-heading {
+		font-size: 0.3rem;
+	}
+
+	#navbarNav {
+		position: relative;
+	}	
+}
+
+
